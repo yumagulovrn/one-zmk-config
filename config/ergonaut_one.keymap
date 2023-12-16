@@ -7,6 +7,14 @@
 #define RSE 2
 #define ADJ 3
 
+&lt {
+    quick-tap-ms = <200>;
+};
+
+&mt {
+    quick-tap-ms = <200>;
+};
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
